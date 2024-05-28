@@ -1,5 +1,5 @@
-当前关卡需要你编写一段汇编代码来满足如下条件绕过检查，并使用 `pwntools` 的 `asm` API 编写汇编语句完成本关卡挑战。本挑战关卡的条件是：
+This level requires you to write an assembly code snippet to meet the following condition to bypass the check, and use the asm API from pwntools to compile the assembly code and complete the challenge. The condition for this challenge is:
 
 ```
-修改特定全局数据区域的值（可查看 ASMChallenge 类的 trace 方法）
+Modify the value of a specific global data area.(refer to the `trace` method of the `ASMChallenge` class)
 ```

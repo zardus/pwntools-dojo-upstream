@@ -1,10 +1,10 @@
-当前关卡需要你编写一段汇编代码来满足如下条件绕过检查，并使用 `pwntools` 的 `asm` API 编写汇编语句完成本关卡挑战。本挑战关卡的条件是：
+In this level, you need to write an assembly code snippet to meet the following condition to bypass the check, and use the asm API from pwntools to compile the assembly code and complete the challenge. The condition for this challenge is:
 
 ```
 rax = 0x12345678
 ```
 
-请参考如下 `pwntools` 示例代码完成代码编写(**提示：请注意修改 NOP 指令为特定功能的汇编指令**)：
+Please refer to the following pwntools example code to complete the script (Hint: make sure to replace the NOP instruction with the specific assembly instruction):
 ```
 from pwn import *
 

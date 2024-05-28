@@ -1,13 +1,13 @@
-Pwntools 是一个工具包（包含各种好用的小工具）与软件库，旨在尽可能简化 CTF 比赛的渗透攻击过程，同时尽可能增加攻击代码的可读性。
+Pwntools is a toolkit (including various handy tools) and a software library designed to simplify the process of exploitation in CTF competitions as much as possible, while also enhancing the readability of the exploit code.
 
 - send, recv
 - pack, unpack
-- Assembly Code
-- ELF 解析 (ELF-Crackme 模块需要)
-- cyclic（缓冲区溢出模块需要）
-- ShellCode & ROP（ShellCode 与 ROP 模块需要）
+- Assembly & Disassembly
+- ELF parsing
+- cyclic
+- ShellCode & ROP
 
-你可以使用下述 `python` 代码来引入 pwntools 库。
+You can use the following python code to import the pwntools library:
 
 ```python
 from pwn import *

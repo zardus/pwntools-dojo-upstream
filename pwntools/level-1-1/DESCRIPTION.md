@@ -1,1 +1,1 @@
-当前关卡需要你阅读挑战关卡的 `bypass_me` 函数，使用 `pwntools` 完成本关卡挑战。接下来，你需要使用 `python` 的字符串拼接与 `pwntools` 中的 `p64`、`p32`、`p16`、`p8` 等 API 编写利用脚本，发送特定输入绕过检查，并读取 `/flag`。
+This level requires you to read the `bypass_me` function in the challenge and use pwntools to complete the challenge. You need to use Python string concatenation and the `p64`, `p32`, `p16`, `p8` APIs from pwntools to write an exploit script, send a specific input to bypass the check, and read the /flag.

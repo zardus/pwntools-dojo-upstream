@@ -1,6 +1,6 @@
-当前关卡属于教学关卡，相对简单。你可以直接在终端中运行 `/challenge/pwntools-tutorials-level0.0`，然后输入特定字符串（此处需要阅读 `bypass_me` 函数），但这不是当前关卡的目的。
+This level is a tutorial and relatively simple. You can directly run /challenge/pwntools-tutorials-level0.0 in the terminal and then input a specific string (which you can find by reading the bypass_me function), but that is not the goal of this level.
 
-当前关卡将指导你如何使用 `pwntools` 完成本关卡挑战。接下来，你需要使用 pwntools 中的 `process`、`send`、`recv` 等 API 编写利用脚本，发送特定输入绕过检查，并读取 `/flag`。请参加如下 pwntools 示例代码（**提示：请注意修改 FIXME 为上述特定字符串**）：
+This level will guide you on how to use pwntools to complete the challenge. Next, you need to use the `process`, `send`, `recv`, and other APIs in pwntools to write an exploit script, send a specific input to bypass the check, and read the /flag. Please refer to the following pwntools example code (hint: be sure to replace `FIXME` with the specific string mentioned above):
 
 ```
 from pwn import *

@@ -46,11 +46,11 @@ challenges:
     level: 3
 
 resources:
-  - name: "Pwntools 使用教程"
-    type: lecture
-    video: "405113607"
-    playlist: "BV1oG411o7A4"
-    slides: Pwntools
+  # - name: "Pwntools 使用教程"
+  #   type: lecture
+  #   video: "405113607"
+  #   playlist: "BV1oG411o7A4"
+  #   slides: Pwntools
   # - name: "gdb 结合 pwntools 调试教程"
   #   type: lecture
   #   video: "532863345"
